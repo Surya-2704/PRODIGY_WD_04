@@ -194,10 +194,6 @@
 
       .home .image-content {
         width: 30%;
-
-        background: url("https://media.istockphoto.com/id/1682296067/photo/happy-studio-portrait-or-professional-man-real-estate-agent-or-asian-businessman-smile-for.webp?b=1&s=170667a&w=0&k=20&c=V-RXoAk73ljzQZd0w_JcCFG-jlYs6sjpcrIZQ1TersQ=")
-          no-repeat center center/cover;
-        animation: fadeInUp 1.5s ease-in-out;
       }
 
       @media (max-width: 768px) {
@@ -316,52 +312,7 @@
           opacity: 1;
         }
       }
-
-      /* certificates  */
-
-      .cert-h2 {
-        font-size: 2.5rem;
-        padding-top: 70px;
-        text-align: center;
-      }
-      .certificates {
-        /* background: #f3f3f3; */
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 30px;
-        width: 100%;
-        padding: 30px 100px 100px 100px;
-      }
-
-      .certificate {
-        background-color: #ffffff;
-        border-radius: 8px;
-        overflow: hidden;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        text-align: center;
-      }
-
-      .certificate h3 {
-        font-size: 1.2rem;
-        margin: 10px 0;
-        color: #000;
-        padding: 0 15px;
-      }
-
-      .certificate p {
-        font-size: 0.8rem;
-        color: #333;
-        line-height: 1.4;
-        padding: 0 15px;
-        padding-bottom: 20px;
-        /* text-align: justify; */
-      }
-      .icon-certificate {
-        margin: 20px;
-        font-size: 50px;
-      }
-
-      /* skills  */
+/* skills  */
 
       .skillall {
         display: flex;
@@ -378,8 +329,7 @@
         text-align: center;
         width: 100%;
         min-height: 100vh;
-        background: url("https://wallpapercave.com/wp/wp2659179.jpg") no-repeat
-          center center/cover;
+        
       }
 
       .skills h2 {
@@ -602,7 +552,6 @@
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#certificates">Certificates</a></li>
       </ul>
       <div class="menu-toggle" id="menu-toggle">
         <i class="fas fa-bars"></i>
@@ -616,25 +565,12 @@
           I'm a passionate developer with skills in creating beautiful and
           functional websites. Explore my projects and get in touch!
         </p>
-        <div class="buttons">
-          <a href="#certificates">
-            <button class="cta-button">See My Certificates</button>
-          </a>
-          <a href="#skills">
-            <button class="cta-button secondary">My Skills</button>
-          </a>
-        </div>
       </div>
       <div class="image-content"></div>
     </section>
 
     <section id="about" class="about">
       <div class="content">
-        <img
-          src="https://media.istockphoto.com/id/1682296067/photo/happy-studio-portrait-or-professional-man-real-estate-agent-or-asian-businessman-smile-for.webp?b=1&s=170667a&w=0&k=20&c=V-RXoAk73ljzQZd0w_JcCFG-jlYs6sjpcrIZQ1TersQ="
-          alt="Profile Picture"
-          class="profile-picture"
-        />
         <h2>About Me</h2>
         <p>
           Hi, I'm Surya, a passionate web developer with a love for creating
@@ -683,118 +619,6 @@
         </div>
       </div>
     </section>
-
-    <section id="certificates">
-      <h2 class="cert-h2">MY CERTIFICATES</h2>
-      <section class="certificates">
-        <div class="certificate">
-          <!-- <i class="fas fa-user-astronaut icon-certificate"></i> -->
-          <!-- <i class="fa-duotone fa-code"></i>
-         -->
-          <i
-            class="fa-solid fa-code icon-certificate"
-            style="color: #ffd43b"
-          ></i>
-
-          <h3>Certificate On HTML</h3>
-          <p>
-            Received certification after completing a comprehensive HTML
-            development program.
-          </p>
-        </div>
-        <div class="certificate">
-          <i
-            class="fa-brands fa-css3-alt icon-certificate"
-            style="color: #4008e7"
-          ></i>
-
-          <h3>Certificate On CSS</h3>
-          <p>
-            Received certification after completing an intensive CSS training
-            program.
-          </p>
-        </div>
-        <div class="certificate">
-          <i
-            class="fa-brands fa-js icon-certificate"
-            style="color: #e56d0b"
-          ></i>
-          <h3>Certificate On JAVASCRIPT</h3>
-          <p>
-            Received certification after completing an advanced JAVASCRIPT
-            development course.
-          </p>
-        </div>
-        <div class="certificate">
-          <i
-            class="fa-brands fa-react icon-certificate"
-            style="color: #e13509"
-          ></i>
-          <h3>Certificate On REACT JS</h3>
-          <p>
-            Received certification after completing an advanced REACT JS
-            development course.
-          </p>
-        </div>
-        <div class="certificate">
-          <i
-            class="fa-brands fa-aws icon-certificate"
-            style="color: #f6c309"
-          ></i>
-          <h3>AWS Practitioner Training</h3>
-          <p>
-            Received certification after completing an advanced AWS Practitioner
-            development course.
-          </p>
-        </div>
-        <div class="certificate">
-          <i
-            class="fa-brands fa-python icon-certificate"
-            style="color: #ea1a93"
-          ></i>
-          <h3>Certificate On PYTHON for DATA ANALYSIS</h3>
-          <p>
-            Received certification after completing an advanced PYTHON
-            development course.
-          </p>
-        </div>
-        <div class="certificate">
-          <i
-            class="fa-brands fa-node-js icon-certificate"
-            style="color: #0db5fd"
-          ></i>
-          <h3>Certificate On NODE JS</h3>
-          <p>
-            Received certification after completing an advanced NODE JS
-            development course.
-          </p>
-        </div>
-        <div class="certificate">
-          <i
-            class="fa-solid fa-cloud-arrow-down icon-certificate"
-            style="color: #d7410f"
-          ></i>
-          <h3>Certificate On EXPRESS JS</h3>
-          <p>
-            Received certification after completing an advanced EXPRESS JS
-            development course.
-          </p>
-        </div>
-        <div class="certificate">
-          <i
-            class="fa-solid fa-server icon-certificate"
-            style="color: #2c6b0a"
-          ></i>
-          <h3>Certificate On MONGO DB</h3>
-          <p>
-            Received certification after completing an advanced MONGO DB
-            development course.
-          </p>
-        </div>
-        <!-- Add more certificates as needed -->
-      </section>
-    </section>
-
     <section id="projects">
       <h2 class="proj-h2">MY PROJECTS</h2>
       <section class="projects">
@@ -851,58 +675,6 @@
             starts by pressing the start and stop by stop, reset button
           </p>
         </div>
-        <div class="project">
-          <div
-            class="project-bg"
-            style="
-              background-image: url('https://img.freepik.com/premium-psd/restaurant-food-menu-landing-page-web-ui-design-template_486734-353.jpg');
-            "
-          ></div>
-          <h3>FOOD WEBSITE</h3>
-          <p>
-            The food ordering & delivery application designed based on the
-            real-life scenario.
-          </p>
-        </div>
-        <div class="project">
-          <div
-            class="project-bg"
-            style="
-              background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDfwsaYoAXD_KwILucqVu9wU_KBk4bYyXQQw&s');
-            "
-          ></div>
-          <h3>GYM WEBSITE</h3>
-          <p>
-            This project aims to develop a modern and user-friendly front-end
-            website for Atlas Gym.
-          </p>
-        </div>
-        <div class="project">
-          <div
-            class="project-bg"
-            style="
-              background-image: url('https://www.codingnepalweb.com/wp-content/uploads/2023/04/Website-20with-20Login-20-amp-20Registration-20Form-20in-20HTML-20CSS-20-amp-20JavaScript.jpg');
-            "
-          ></div>
-          <h3>LOGIN AUTHENTICATION</h3>
-          <p>
-            Web Authentication behind the login screen. The process of verifying
-            the identity of a user.
-          </p>
-        </div>
-        <div class="project">
-          <div
-            class="project-bg"
-            style="
-              background-image: url('https://d3h2k7ug3o5pb3.cloudfront.net/image/2020-12-05/60097640-36b7-11eb-bcbe-7daa1ab28fd4.jpg');
-            "
-          ></div>
-          <h3>API APPLICATION</h3>
-          <p>
-            APIs provide a huge amount of functionality, which can be used to
-            develop our own applications or websites.
-          </p>
-        </div>
       </section>
     </section>
 
@@ -917,19 +689,10 @@
               <h3>Email</h3>
               <p>suryabalantrapu@gmail.com</p>
             </div>
-            <div>
-              <h3>Certifications</h3>
-              <p>
-                <a
-                  href="#certificates"
-                  style="color: #fff; text-decoration: none"
-                  >Check Now</a
-                >
-              </p>
-            </div>
+           
             <div>
               <h3>Mobile Number</h3>
-              <p>+91 9997934565</p>
+              <p>+91 9999999999</p>
             </div>
           </div>
         </div>
